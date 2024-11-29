@@ -10,6 +10,7 @@ import Advantages from "../components/advantages/Advantages";
 import FrequentlyQuestions from "../components/frequentlyQuestions/FrequentlyQuestions";
 import ContactForm from "../components/form/ContactForm";
 import Footer from "../components/footer/Footer";
+import EstimatedCostCalculation from "../components/estimatedCostCalculation/EstimatedCostCalculation";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Achievements />
       <StoneRadiators />
       <CostCalculator />
+      <EstimatedCostCalculation />
       <HeatingCostEstimator />
       <Advantages />
       <FrequentlyQuestions />
